@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-transition:all .4s ease;
-    -moz-transition:all .4s ease;
-    -o-transition:all .4s ease;
-    transition:all .4s ease;
+    -webkit-transition:all .1s ease;
+    -moz-transition:all .1s ease;
+    -o-transition:all .1s ease;
+    transition:all .1s ease;
 }
 
 *:focus{
@@ -76,6 +76,10 @@ body {
     cursor: pointer;
     margin: 0 10px;
     display: inline-block;
+}
+
+.icon:hover {
+    opacity: .5;
 }
 
 .user-profile {
@@ -158,6 +162,7 @@ body {
     font-size: 12px;
     margin-top: 5px;
     color: rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
 .post {
@@ -183,6 +188,7 @@ body {
     color: #000;
     font-size: 14px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .info .options {
@@ -322,6 +328,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     color: #000;
+    cursor: pointer;
 }
 
 .sub-text {
@@ -335,6 +342,11 @@ body {
     opacity: 1;
     font-weight: 700;
     font-size: 12px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    opacity: 0.5;
 }
 
 .suggestion-text {
